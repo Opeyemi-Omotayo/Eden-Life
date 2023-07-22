@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        <h1 class="intro">Review your plan</h1>
+      </div>
+
+      <div class="progress-container">
+        <div class="steps">
+          <span class="circle"><i class="material-icons">done</i></span>
+          <span class="circle">2</span>
+          <span class="not-done">3</span>
+          <span class="not-done"
+            ><img src="./Assests/progress.svg" alt="4"
+          /></span>
+          <div class="progress-line">
+            <span class="indicator"></span>
+          </div>
+        </div>
+        <div class="descr">
+          <span>Sign Up</span>
+          <span class="customize">Customize</span>
+          <span>Pay</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="info">
+          <h1>Review your plan</h1>
+          <p>
+            Here's a summary of your Eden life. Let me tell you, your life is
+            about to become waayyy easier.
+          </p>
+        </div>
+
+        <div class="plan-details">
+          <span class="plan-left">Your Plan Details</span>
+          <span class="plan-right">Add or Remove Services</span>
+          <section class="underline"></section>
+        </div>
+
+        <div class="card-list cont">
+          <section class="card coloured_card1">
+            <div class="card-details">
+              <div class="card-descr">
+                <img src="./Assests/food.svg" alt="food" />
+                <span class="descr-span">Food</span>
+              </div>
+              <div class="card-descr">
+                <span class="descr-p"> Expand details </span>
+                <span><img src="./Assests/more.svg" alt="" /></span>
+              </div>
+            </div>
+            <p class="card_price">₦27,000</p>
+          </section>
+          <section class="card coloured_card2">
+            <div class="card-details">
+              <div class="card-descr">
+                <img src="./Assests/laundry.svg" alt="food" />
+                <span class="descr-span">Laundry</span>
+              </div>
+              <div class="card-descr">
+                <span class="descr-p"> Expand details </span>
+                <span><img src="./Assests/more.svg" alt="" /></span>
+              </div>
+            </div>
+            <p class="card_price">₦27,000</p>
+          </section>
+          <section class="card coloured_card3">
+            <div class="card-details">
+              <div class="card-descr">
+                <img src="./Assests/cleaning.svg" alt="food" />
+                <span class="descr-span">Cleaning</span>
+              </div>
+              <div class="card-descr">
+                <span class="descr-p"> Expand details </span>
+                <span><img src="./Assests/more.svg" alt="" /></span>
+              </div>
+            </div>
+            <p class="card_price">₦27,000</p>
+          </section>
+          <section class="card coloured_card4">
+            <div class="card-details">
+              <div class="card-descr">
+                <img src="./Assests/beauty.svg" alt="food" />
+                <span class="descr-span">Beauty</span>
+              </div>
+              <div class="card-descr">
+                <span class="descr-p"> Expand details </span>
+                <span><img src="./Assests/more.svg" alt="" /></span>
+              </div>
+            </div>
+            <p class="card_price">₦27,000</p>
+          </section>
+        </div>
+
+        <section class="undeerline"></section>
+
+        <div class="plan-details total">
+          <span class="plan-left">Start date</span>
+          <span class="plan-right">Choose your start date</span>
+        </div>
+        <div class="date-error">
+          <img src="./Assests/warning.svg" alt="error" />
+          <p>Choose your start date to pay.</p>
+        </div>
+
+        <section class="undeerline"></section>
+
+        <div class="discount">
+          <h2>Discount Code</h2>
+          <div class="discount-form">
+            <input type="text" value="247LOVE4U" class="discount-input" />
+            <button class="discount-button">Remove code</button>
+          </div>
+          <p>Code successfully applied.</p>
+        </div>
+
+        <section class="undeerline"></section>
+
+        <section class="total">
+          <div class="plan-details">
+            <span class="plan-left">Subtotal</span>
+            <span class="plan-right black">₦112,000.00</span>
+          </div>
+          <div class="plan-details">
+            <span class="plan-left">Discount applied (25% off)</span>
+            <span class="plan-right">- ₦28,000</span>
+          </div>
+          <div class="plan-details">
+            <h1 class="plan-left">Total</h1>
+            <h1 class="plan-right black bold">₦102,000.00</h1>
+          </div>
+          <div class="plan-details">
+            <span class="plan-left"></span>
+            <span class="plan-right black"
+              >This amount covers your subscription for the next 4 weeks.</span
+            >
+          </div>
+        </section>
+
+        <section class="sub-details">
+          <img src="./Assests/warning.svg" alt="error" />
+          <p>
+            Your subscription amount for subsequent months will be ₦112,000.
+          </p>
+        </section>
+      </div>
+      <section class="laundry">
+        <button class="laundry-freq">View Laundry Frequency</button>
+      </section>
+      <section class="laundry">
+        <p>
+          Not what you want?
+          <span style="color: #03a84e; text-decoration: underline"
+            >Customise your plan.</span
+          >
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
