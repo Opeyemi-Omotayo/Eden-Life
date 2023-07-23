@@ -27,7 +27,7 @@
           <span></span>
         </button>
 
-        <h2 >Hi, Opeyemi!</h2>
+        <h2>Hi, Opeyemi!</h2>
       </div>
       <div class="picture right-content">
         <img
@@ -87,10 +87,10 @@
             </div>
             <div class="card-descr descr-p2" id="getCleaningDetails">
               <span > Expand details </span>
-              <span><img src="./Assests/Arrow (1).svg" alt="" /></span>
+              <span><img src="./Assests/CleaningExpand.svg" alt="" /></span>
             </div>
           </div>
-          <p class="time" style="padding-top: 2rem;">Get ready; our cleaner is coming to get your house pampered.</p>
+          <p class="time" style="padding-top: 2.7rem; padding-bottom: 3rem;">Get ready; our cleaner is coming to get your house pampered.</p>
           <div class="line"></div>
           <div class="time">
             <img src="./Assests/clock.svg" alt="time">
@@ -101,17 +101,44 @@
 
     <div id="modal" class="modal">
       <div class="modal-content">
-        <p>Mon, 08 Sep 2021</p>
+        <p class="modal-date">Mon, 08 Sep 2021</p>
         <span class="close-btn" id='closeBtn' onclick="closeModal()">&times;</span>
-        <div class="food-item time">
-          <img src="./Assests/food.svg" alt="order" class="food-image">
-          <div class="food-info">
+        <div class="food-item ">
+          <img src="./Assests/food.svg" alt="order" class="order-img">
+          <div class="food-info order-info">
             <h2>Order Status</h2>
-            <p>Order has arrived</p>
+            <h3>Order has arrived</h3>
           </div>
         </div>
-        <h2>Modal Title</h2>
-        <p>This is the content of the modal.</p>
+        <div class="address-details food-info">
+          <h2 style="margin-bottom: 0.7rem;">Delivery Address</h2>
+          <p>No 6B, Radiators Spring, Lightning Estate, Lagos, Nigeria.</p>
+        </div>
+        
+        <div >
+          <ul class="orderProgress">
+            <li class="orderProgress-item current">
+              <section class="order-item">
+                <div class="order-details">
+                  <h3>Order has arrived</h3>
+                  <p>10:56 AM</p>
+                </div>
+               <p>Your order has arrived at your location. Pick it up!</p> 
+              </section>
+            </li>
+            <li class="orderProgress-item is-done">
+              <section class="order-item">
+                <div class="order-details">
+                  <h3>Order on the way</h3>
+                  <p>9:14 AM</p>
+                </div>
+               <p>Your order has been dispatched and is on the way to you.</p>
+              </section>
+              
+          </ul>
+          </div>
+        
+
       </div>
     </div>
   </body>
