@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/home.css" />
+    <link rel="stylesheet" href="CSS/modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./JS/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body class="container">
+    <header class="mobile-header">
+      <div class="left-content">
+        <button
+          class="menu-toggle"
+          aria-label="Toggle Menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <h2 >Hi, Opeyemi!</h2>
+      </div>
+      <div class="picture right-content">
+        <img
+          src="./Assests/profilepicture.svg  "
+          alt="DP"
+          class="profilepicture"
+        />
+      </div>
+    </header>
+
+    <div class="heading">
+      <p class="active">Home</p>
+      <p>Upcoming</p>
+    </div>
+
+    <div class="inquiry">
+      <h2>Tap here to call us</h2>
+      <p>
+        Do you have any inquiry about your meals? You can simply tap to call us.
+      </p>
+      <div class="image">
+        <img src="./Assests/inquiry.svg" alt="food" />
+      </div>
+    </div>
+
+    <div class="card-list">
+        <section class="card coloured_1">
+          <div class="card-details">
+            <div class="card-descr">
+                <span class="descr-span" style="color: #03a84e;">Food Delivery</span>
+              <img src="./Assests/food.svg" alt="food" />
+            </div>
+            <div class="card-descr descr-p1" id="getFoodDetails">
+              <span > Expand details </span>
+              <span><img src="./Assests/ArrowExpand.svg" alt="" /></span>
+            </div>
+          </div>
+          <div class="food-item time">
+            <img src="./Assests/chicken.svg" alt="order" class="food-image">
+            <div class="food-info">
+              <h2>French Fries with</h2>
+              <p>BBQ Turkey Wings & Coleslaw</p>
+            </div>
+          </div>
+          
+          <div class="line2"></div>
+          <div class="time">
+            <img src="./Assests/clock.svg" alt="time">
+            <p class="time-time">10:00 AM - 11:30 AM</p>
+          </div>
+        </section>
+        <section class="card coloured_2">
+          <div class="card-details">
+            <div class="card-descr">
+                <span class="descr-span" style="color: #FF9D00;">Home Cleaning</span>
+              <img src="./Assests/cleaning.svg" alt="food" />
+            </div>
+            <div class="card-descr descr-p2" id="getCleaningDetails">
+              <span > Expand details </span>
+              <span><img src="./Assests/Arrow (1).svg" alt="" /></span>
+            </div>
+          </div>
+          <p class="time" style="padding-top: 2rem;">Get ready; our cleaner is coming to get your house pampered.</p>
+          <div class="line"></div>
+          <div class="time">
+            <img src="./Assests/clock.svg" alt="time">
+            <p class="time-time">10:00 AM - 11:30 AM</p>
+          </div>
+        </section>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <p>Mon, 08 Sep 2021</p>
+        <span class="close-btn" id='closeBtn' onclick="closeModal()">&times;</span>
+        <div class="food-item time">
+          <img src="./Assests/food.svg" alt="order" class="food-image">
+          <div class="food-info">
+            <h2>Order Status</h2>
+            <p>Order has arrived</p>
+          </div>
+        </div>
+        <h2>Modal Title</h2>
+        <p>This is the content of the modal.</p>
+      </div>
+    </div>
+  </body>
+</html>
