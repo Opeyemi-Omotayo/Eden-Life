@@ -54,7 +54,7 @@
     margin: 10rem 5rem 5rem 5rem;
   }
 
-  /*.profile-container h1 {
+  .profile-container h1 {
     font-size: 20px;
     font-weight: 700;
     line-height: 32px;
@@ -76,7 +76,7 @@
     margin-top: 10rem;
   }
 
-  .container {
+  .home-container {
     margin: 1rem 2rem 0 2rem;
   }
 
@@ -135,7 +135,7 @@
     padding-top: 15px;
     margin-bottom: 0.5rem;
     border-radius: 8px;
-  } */
+  }
 
 }
 
@@ -157,7 +157,7 @@
   .total-price {
     font-weight: 600 !important;
   }
-  /* .profile-container {
+  .profile-container {
     margin: 12rem 5rem 5rem 5rem;
   }
 
@@ -183,7 +183,7 @@
     margin-top: 12rem;
   }
 
-  .container {
+  .home-container {
     margin: 1rem 4rem 0 4rem;
   }
 
@@ -236,7 +236,7 @@
 
   .modal-content {
     width: 85%;
-  } */
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

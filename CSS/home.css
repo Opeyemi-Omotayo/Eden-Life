@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
+.home-container {
   background-color: white;
   margin: 1rem 7rem 0 7rem;
   display: flex;
