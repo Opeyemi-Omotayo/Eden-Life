@@ -125,6 +125,18 @@
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  .modal-content {
+    width: 90%;
+  }
+
+  .address-details {
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+  }
+
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -209,7 +221,7 @@
   }
 
   .coloured_2{
-    height: 205px !important;
+    height: 220px !important;
   }
 
   .cleaning-details-time{
@@ -220,6 +232,10 @@
   .sizing-card-descr{
     padding: 10px;
     height: 35px;
+  }
+
+  .modal-content {
+    width: 85%;
   }
 }
 
@@ -290,6 +306,10 @@
     padding: 10px;
     height: 35px;
   }
+
+  .modal-content {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -336,6 +356,10 @@
   
   .food-info p {
     font-size: 16px;
+  }
+
+  .modal-content {
+    width: 70%;
   }
 }
 
