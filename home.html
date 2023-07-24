@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/home.css" />
-    <link rel="stylesheet" href="CSS/modal.css">
+    <link rel="stylesheet" href="./CSS/modal.css">
+    <link rel="stylesheet" href="./CSS/responsiveness.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,14 +55,14 @@
     </div>
 
     <div class="card-list">
-        <section class="card coloured_1">
+        <section class="cards coloured_1">
           <div class="card-details">
             <div class="card-descr">
                 <span class="descr-span" style="color: #03a84e;">Food Delivery</span>
               <img src="./Assets/food.svg" alt="food" />
             </div>
-            <div class="card-descr descr-p1" id="getFoodDetails">
-              <span > Expand details </span>
+            <div class="card-descr descr-p1 sizing-card-descr" id="getFoodDetails" style="background: #E9FBF2; padding: 6px; border-radius: 8px;">
+              <span > View Status </span>
               <span><img src="./Assets/ArrowExpand.svg" alt="" /></span>
             </div>
           </div>
@@ -79,18 +80,18 @@
             <p class="time-time">10:00 AM - 11:30 AM</p>
           </div>
         </section>
-        <section class="card coloured_2">
+        <section class="cards coloured_2">
           <div class="card-details">
             <div class="card-descr">
                 <span class="descr-span" style="color: #FF9D00;">Home Cleaning</span>
               <img src="./Assets/cleaning.svg" alt="food" />
             </div>
-            <div class="card-descr descr-p2" id="getCleaningDetails">
-              <span > Expand details </span>
+            <div class="card-descr descr-p2 sizing-card-descr" id="getCleaningDetails" style="background: #FFF3DF; padding: 6px; border-radius: 8px;">
+              <span >View Status </span>
               <span><img src="./Assets/CleaningExpand.svg" alt="" /></span>
             </div>
           </div>
-          <p class="time" style="padding-top: 2.7rem; padding-bottom: 3rem;">Get ready; our cleaner is coming to get your house pampered.</p>
+          <p class="time cleaning-details-time">Get ready; our cleaner is coming to get your house pampered.</p>
           <div class="line"></div>
           <div class="time">
             <img src="./Assets/clock.svg" alt="time">

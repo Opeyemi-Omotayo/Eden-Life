@@ -8,7 +8,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -38,6 +38,15 @@ html{
   padding: 1rem;
   background-color: white;
 }
+
+.mobile-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .heading {
   display: flex;
   align-items: center;
@@ -56,6 +65,11 @@ html{
   padding: 0.9rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .heading p.active {
@@ -153,11 +167,11 @@ html{
   background: #03a84e;
 }
 
-.line3{
+.line3 {
   height: 1px;
   width: 100%;
   margin-top: 3rem;
-  background: #8AA398;
+  background: #8aa398;
 }
 
 .card-list {
@@ -167,7 +181,7 @@ html{
   margin-top: 2rem;
 }
 
-.card {
+.cards {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -177,7 +191,7 @@ html{
   cursor: pointer;
 }
 
-.card:hover {
+.cards:hover {
   transform: translateY(-1px);
   transform: scale(0.97);
 }
@@ -185,9 +199,7 @@ html{
 .card-details {
   display: flex;
   height: 70px;
-  width: 480px;
   justify-content: space-between;
-  overflow-x: auto;
   padding: 35px;
 }
 
@@ -250,7 +262,6 @@ html{
 }
 
 .food-image {
-  width: 100px;
   height: auto;
   margin-right: 1rem;
   border-radius: 8px;

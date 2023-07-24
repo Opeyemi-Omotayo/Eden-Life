@@ -70,10 +70,60 @@
     text-align: center;
   }
 
-  .profile-container button {
+  .profile-container-btn {
     height: 50px;
     width: 250px;
     margin-top: 10rem;
+  }
+
+  .container {
+    margin: 1rem 2rem 0 2rem;
+  }
+
+  .inquiry h2,
+  .inquiry p {
+    padding: 20px 0 0 20px;
+  }
+  .cards {
+    height: 220px;
+    width: 100%;
+  }
+
+  .card-details, .time {
+    padding: 20px;
+  }
+
+  .descr-span {
+    font-size: 16px;
+  }
+  
+  .descr-p1, .descr-p2 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .food-item {
+    margin-top: 0;
+    height: 60px;
+  }
+
+  .time-time {
+    margin-bottom: 0;
+  }
+
+  .line2,.line {
+   width: 89%;
+   margin-left: 20px;
+   margin-bottom: 2px;
+  }
+
+  .coloured_2{
+    height: 205px !important;
+  }
+
+  .cleaning-details-time{
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -82,7 +132,7 @@
     width: 71%;
   }
   .card-list {
-    grid-template-columns: repeat(200px, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .card {
     height: 130px;
@@ -115,10 +165,61 @@
     text-align: center;
   }
 
-  .profile-container button {
+  .profile-container-btn {
     height: 50px;
     width: 250px;
     margin-top: 12rem;
+  }
+
+  .container {
+    margin: 1rem 4rem 0 4rem;
+  }
+
+  .cards {
+    height: 270px;
+    width: 100%;
+  }
+
+  .card-details, .time {
+    padding: 35px;
+  }
+
+  .descr-span {
+    font-size: 16px;
+  }
+  
+  .descr-p1, .descr-p2 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .food-item {
+    margin-top: 0.6rem;
+    height: 70px;
+  }
+
+  .time-time {
+    margin-bottom: 0;
+  }
+
+  .line2,.line {
+   width: 88%;
+   margin-left: 35px;
+   margin-bottom: 2px;
+  }
+
+  .coloured_2{
+    height: 205px !important;
+  }
+
+  .cleaning-details-time{
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+  }
+
+  .sizing-card-descr{
+    padding: 10px;
+    height: 35px;
   }
 }
 
@@ -160,10 +261,34 @@
     text-align: center;
   }
 
-  .profile-container button {
+  .profile-container-btn {
     height: 50px;
     width: 250px;
     margin-top: 12rem;
+  }
+
+  .cards {
+    height: 270px;
+    width: 100%;
+  }
+
+  .line2,.line {
+    width: 90%;
+    margin-left: 35px;
+   }
+
+   .coloured_2{
+    height: 215px !important;
+  }
+
+  .cleaning-details-time{
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+  }
+
+  .sizing-card-descr{
+    padding: 10px;
+    height: 35px;
   }
 }
 
@@ -179,6 +304,37 @@
     font-weight: 600 !important;
   }
   .sub-details {
+    font-size: 16px;
+  }
+  .cards {
+    height: 270px;
+    width: 100%;
+  }
+
+  .line2,.line {
+    width: 92%;
+    margin-left: 35px;
+   }
+
+   .coloured_2{
+    height: 215px !important;
+  }
+
+  .cleaning-details-time{
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+  }
+
+  .sizing-card-descr{
+    padding: 10px;
+    height: 35px;
+  }
+
+  .food-info h2 {
+    font-size: 14px;
+  }
+  
+  .food-info p {
     font-size: 16px;
   }
 }
@@ -200,4 +356,28 @@
   .sub-details {
     font-size: 17px;
   }
+
+  .cards {
+    height: 270px;
+    width: 100%;
+  }
+
+  .cleaning-details-time{
+    padding-top: 4rem;
+    padding-bottom: 0;
+  }
+
+  .sizing-card-descr{
+    padding: 10px;
+    height: 35px;
+  }
+
+  .food-info h2 {
+    font-size: 14px;
+  }
+  
+  .food-info p {
+    font-size: 16px;
+  }
+
 }

@@ -12,12 +12,10 @@ body {
   margin: 15rem 8rem 8rem 8rem;
 }
 
-.profile-container button{
+.profile-container-btn{
   display: inline-flex;
-  height: 50px;
   width: 300px;
   margin-top: 2rem;
-  padding: 20px;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -28,6 +26,7 @@ body {
   border-radius: 32px;
   border: 1px solid #e2e9e6;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .confetti-container {
