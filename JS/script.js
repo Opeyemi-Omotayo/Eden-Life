@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const expandFoodDetails = document.getElementById("getFoodDetails");
   const closeOrderBtn = document.getElementById("closeOrderBtn");
   const closeCleaningBtn = document.getElementById("closeCleaningBtn");
+  const discountBtn = document.querySelector('.discount-button');
 
   /// confetti
   let confettiTimeout;
@@ -79,4 +80,17 @@ document.addEventListener("DOMContentLoaded", () => {
       cleaningModal.style.display = "none";
     }
   });
+
+  function removeDiscountCode() {
+    console.log('cllll')
+    // const discountInput = document.getElementById('discountInput');
+    // const successMessage = document.getElementById('successMessage');
+
+    // discountInput.value = '';
+
+    // successMessage.style.display = 'none';
+  }
+
+  discountBtn.addEventListener("click", removeDiscountCode);
+
 });

@@ -18,31 +18,34 @@ html{
   line-height: 34px;
   letter-spacing: 0em;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+}
+
+.intro img{
+  margin-bottom: -2.5rem;
+  cursor: pointer;
 }
 
 .wrapper {
-  margin: 0 2rem;
-  width: 100%;
+  background-color: white;
+  margin: 1rem 7rem 0 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .progress-container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 2rem 0 0 7rem;
+  margin-top: 2.5rem;
 }
 
 .progress-container .steps {
   display: flex;
-  width: 100%;
   position: relative;
   align-items: center;
   justify-content: space-between;
 }
 
 .descr {
-  width: 670px;
+  width: 67%;
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -62,6 +65,7 @@ html{
   font-size: 18px;
   font-weight: 500;
   color: white;
+  z-index: 999;
 }
 
 .not-done {
@@ -77,6 +81,7 @@ html{
   font-size: 18px;
   font-weight: 500;
   color: rgb(80, 79, 79);
+  z-index: 999;
 }
 
 .customize {
@@ -88,7 +93,6 @@ html{
   height: 4px;
   width: 100%;
   background-color: #e2e9e6;
-  z-index: -1;
 }
 
 .progress-line .indicator {
@@ -97,14 +101,9 @@ html{
   width: 55%;
   background: #03a84e;
 }
-.container {
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 20px;
-  margin: 3.5rem 0 0 7rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+.container{
+  margin-top: 3rem;
 }
 
 .info {
@@ -112,7 +111,6 @@ html{
   flex-direction: column;
   align-items: flex-start;
   gap: 6px;
-  width: 1000px;
   height: 110px;
   left: 24px;
   gap: 6px;
@@ -135,7 +133,6 @@ html{
 }
 
 .plan-details {
-  width: 1000px;
   height: 41px;
   left: 24px;
   display: flex;
@@ -146,14 +143,13 @@ html{
 .underline {
   position: absolute;
   height: 2px;
-  width: 1000px;
+  width: 83%;
   background: #cbd8d2;
   margin-top: 3rem;
 }
 
 .undeerline {
   height: 2px;
-  width: 1000px;
   background: #cbd8d2;
   margin-top: 3rem;
 }
@@ -180,7 +176,6 @@ html{
 
 .card-list {
   display: grid;
-  width: 1000px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   margin-top: 2rem;
@@ -269,7 +264,6 @@ html{
 .date-error {
   display: flex;
   padding: 16px;
-  width: 1000px;
   margin-top: 1rem;
   align-items: flex-start;
   gap: 12px;
@@ -283,7 +277,6 @@ html{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 76%;
 }
 
 .discount-input {
@@ -336,7 +329,6 @@ html{
 
 .sub-details {
   display: flex;
-  width: 1000px;
   padding: 25px;
   align-items: flex-start;
   gap: 12px;
@@ -365,6 +357,7 @@ html{
   background: #03a84e;
   color: white;
   font-size: 15px;
+  cursor: pointer;
 }
 
 @media (min-width: 1343px) and (max-width: 1400px) {
@@ -374,6 +367,6 @@ html{
   }
   .card {
     height: 130px;
-    width: 490px;
+    width: 550px;
   }
 }
