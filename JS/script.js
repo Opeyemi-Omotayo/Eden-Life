@@ -1,11 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   const confettiContainer = document.querySelector(".confetti-container");
-  const modal = document.getElementById("modal");
+  const orderModal = document.getElementById("orderModal");
+  const cleaningModal = document.getElementById("cleaningModal");
   const expandCleaningDetails = document.getElementById("getCleaningDetails");
   const expandFoodDetails = document.getElementById("getFoodDetails");
-  const closeBtn = document.getElementById('closeBtn');
+  const closeOrderBtn = document.getElementById("closeOrderBtn");
+  const closeCleaningBtn = document.getElementById("closeCleaningBtn");
 
-
+  /// confetti
   let confettiTimeout;
   let isConfettiRunning = true;
   let confettiColors = [
@@ -50,23 +52,31 @@ document.addEventListener("DOMContentLoaded", () => {
     clearTimeout(confettiTimeout);
   }, 5000);
 
-  function openModal() {
+  ///modal
+  function openModal(modal) {
     modal.style.display = "flex";
   }
 
-  function closeModal() {
+  function closeModal(modal) {
     modal.style.display = "none";
   }
 
-  closeBtn.addEventListener('click', closeModal);
+  expandFoodDetails.addEventListener("click", () => openModal(orderModal));
+  expandCleaningDetails.addEventListener("click", () =>
+    openModal(cleaningModal)
+  );
+  closeOrderBtn.addEventListener("click", () => closeModal(orderModal));
+  closeCleaningBtn.addEventListener("click", () => closeModal(cleaningModal));
 
-  expandFoodDetails.addEventListener("click", openModal);
+  orderModal.addEventListener("click", (event) => {
+    if (event.target === orderModal) {
+      orderModal.style.display = "none";
+    }
+  });
 
-  expandCleaningDetails.addEventListener("click", openModal);
-
-  modal.addEventListener('click', (event) => {
-    if (event.target === modal) {
-      modal.style.display = 'none';
+  cleaningModal.addEventListener("click", (event) => {
+    if (event.target === cleaningModal) {
+      cleaningModal.style.display = "none";
     }
   });
 });
