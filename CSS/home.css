@@ -205,6 +205,13 @@ html {
 
 .card-descr {
   height: 100%;
+  display: inline-flex;
+  height: 1.5rem;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.125rem;
+  flex-shrink: 0;
+  border-radius: 6.25rem;
 }
 
 .descr-span {

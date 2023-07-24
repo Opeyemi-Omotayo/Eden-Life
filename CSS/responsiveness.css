@@ -50,11 +50,11 @@
     font-weight: 600 !important;
   }
 
-  .profile-container {
+   .profile-container {
     margin: 10rem 5rem 5rem 5rem;
   }
 
-  .profile-container h1 {
+  /*.profile-container h1 {
     font-size: 20px;
     font-weight: 700;
     line-height: 32px;
@@ -135,7 +135,7 @@
     padding-top: 15px;
     margin-bottom: 0.5rem;
     border-radius: 8px;
-  }
+  } */
 
 }
 
@@ -157,7 +157,7 @@
   .total-price {
     font-weight: 600 !important;
   }
-  .profile-container {
+  /* .profile-container {
     margin: 12rem 5rem 5rem 5rem;
   }
 
@@ -236,7 +236,7 @@
 
   .modal-content {
     width: 85%;
-  }
+  } */
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -368,7 +368,7 @@
     width: 85%;
   }
   .card-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .card {
     height: 135px;
@@ -386,8 +386,12 @@
     width: 100%;
   }
 
+  .coloured_2{
+    height: 215px !important;
+  }
+
   .cleaning-details-time{
-    padding-top: 4rem;
+    padding-top: 1rem;
     padding-bottom: 0;
   }
 
@@ -403,5 +407,10 @@
   .food-info p {
     font-size: 16px;
   }
+
+  .line2,.line {
+    width: 95%;
+    margin-left: 35px;
+   }
 
 }
