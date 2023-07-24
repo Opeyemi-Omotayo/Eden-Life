@@ -14,7 +14,7 @@ html{
 
 .intro {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 34px;
   letter-spacing: 0em;
   text-align: center;
@@ -114,13 +114,14 @@ html{
   height: 110px;
   left: 24px;
   gap: 6px;
+  margin-bottom: 1rem;
 }
 
 .info h1 {
   color: #0f241b;
   font-size: 25px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 32px;
 }
 
@@ -220,16 +221,12 @@ html{
 .card-details {
   display: flex;
   height: 70px;
-  width: 480px;
   justify-content: space-between;
   overflow-x: auto;
   padding: 35px;
 }
 
-.card-descr {
-  height: 100%;
-}
-
+.card
 .card_price {
   color: #4b6358;
   font-size: 14px;
@@ -261,6 +258,11 @@ html{
   line-height: 20px;
 }
 
+.adjust-svg{
+  background: #0f241b;
+  top: -45px
+}
+
 .date-error {
   display: flex;
   padding: 16px;
@@ -284,8 +286,8 @@ html{
   border-top: none;
   border-left: none;
   border-right: none;
-  padding: 10px;
   font-size: 16px;
+  font-weight: 500;
   flex: 1;
 }
 
@@ -297,6 +299,7 @@ html{
   align-items: center;
   gap: 8px;
   font-size: 15px;
+  font-weight: 520;
   background-color: white;
   flex-shrink: 0;
   border-radius: 32px;
@@ -321,9 +324,13 @@ html{
 .black {
   color: black;
 }
+.grey{
+  color: #4B6358;
+}
 
 .bold {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 24px;
   font-weight: 700;
 }
 
@@ -335,6 +342,9 @@ html{
   border-radius: 8px;
   border: 1px dotted #cbd8d2;
   background: #f9fbfa;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .laundry{
@@ -344,6 +354,8 @@ html{
 }
 .laundry p{
     margin-bottom: 3rem;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .laundry-freq {
@@ -356,11 +368,11 @@ html{
   border-radius: 32px;
   background: #03a84e;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
 }
 
-@media (min-width: 1343px) and (max-width: 1400px) {
+/* @media (min-width: 1343px) and (max-width: 1400px) {
   .card-list {
     grid-template-columns: repeat(2, 1fr);
     width: 350px;
@@ -369,4 +381,4 @@ html{
     height: 130px;
     width: 550px;
   }
-}
+} */

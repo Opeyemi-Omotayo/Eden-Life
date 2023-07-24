@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/responsiveness.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -120,8 +121,8 @@
         <section class="undeerline"></section>
 
         <div class="plan-details total">
-          <span class="plan-left">Start date</span>
-          <a href="#" class="plan-right" style="text-decoration: none;">Choose your start date</a>
+          <span class="plan-left date-left">Start date</span>
+          <a href="#" class="plan-right date-right" style="text-decoration: none;">Choose your start date</a>
         </div>
         <div class="date-error">
           <img src="./Assets/warning.svg" alt="error" />
@@ -143,20 +144,20 @@
 
         <section class="total">
           <div class="plan-details">
-            <span class="plan-left">Subtotal</span>
+            <span class="plan-left total-price" style="font-weight: 500;">Subtotal</span>
             <span class="plan-right black">₦112,000.00</span>
           </div>
           <div class="plan-details">
-            <span class="plan-left">Discount applied (25% off)</span>
-            <span class="plan-right">- ₦28,000</span>
+            <span class="plan-left total-price" style="font-weight: 500;">Discount applied (25% off)</span>
+            <span class="plan-right total-price">- ₦28,000</span>
           </div>
           <div class="plan-details">
-            <h1 class="plan-left">Total</h1>
-            <h1 class="plan-right black bold">₦102,000.00</h1>
+            <h1 class="plan-left total-price" style="font-weight: 500;">Total</h1>
+            <h1 class="plan-right black" style="font-size: 16px; line-height: 24px; font-weight: 700;">₦102,000.00</h1>
           </div>
           <div class="plan-details">
             <span class="plan-left"></span>
-            <span class="plan-right black"
+            <span class="plan-right grey"
               >This amount covers your subscription for the next 4 weeks.</span
             >
           </div>

@@ -1,0 +1,127 @@
+@media (max-width: 480px) {
+  .steps .circle,
+  .not-done {
+    height: 28.44px;
+    width: 28.44px;
+    font-size: 14px;
+  }
+  .wrapper {
+    margin: 1rem 2rem 0 2rem;
+  }
+  .descr {
+    width: 68%;
+    font-size: 14px;
+  }
+  .intro {
+    font-size: 18px;
+  }
+  .info h1 {
+    font-size: 20px;
+  }
+  .underline {
+    width: 85%;
+  }
+  .plan-right,
+  .date-error .discount-input {
+    font-size: 14px;
+  }
+  .plan-left,
+  .date-right,
+  .date-left {
+    font-size: 16px;
+  }
+  .date-left,
+  .plan-left {
+    font-weight: 600;
+  }
+  .card-list {
+    grid-template-columns: repeat(200px, 1fr);
+  }
+  .card {
+    height: 130px;
+    width: 100%;
+  }
+  .discount h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .total-price {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .underline {
+    width: 71%;
+  }
+  .card-list {
+    grid-template-columns: repeat(200px, 1fr);
+  }
+  .card {
+    height: 130px;
+    width: 100%;
+  }
+
+  .sub-details {
+    font-size: 16px;
+  }
+  .total-price {
+    font-weight: 600 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .underline {
+    width: 78%;
+  }
+  .card-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    height: 135px;
+    width: 100%;
+  }
+
+  .total-price {
+    font-weight: 600 !important;
+  }
+  .sub-details {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .card-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    height: 135px;
+    width: 100%;
+  }
+  .total-price {
+    font-weight: 600 !important;
+  }
+  .sub-details {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .underline {
+    width: 85%;
+  }
+  .card-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    height: 135px;
+    width: 100%;
+  }
+  .total-price {
+    font-weight: 600 !important;
+  }
+  .sub-details {
+    font-size: 17px;
+  }
+}
