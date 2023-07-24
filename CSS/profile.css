@@ -4,7 +4,7 @@ body {
   overflow: hidden;
 }
 
-.container{
+.profile-container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@ body {
   margin: 15rem 8rem 8rem 8rem;
 }
 
-.container button{
+.profile-container button{
   display: inline-flex;
   height: 50px;
   width: 300px;

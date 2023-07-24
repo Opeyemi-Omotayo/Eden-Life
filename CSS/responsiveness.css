@@ -49,6 +49,32 @@
     font-size: 14px !important;
     font-weight: 600 !important;
   }
+
+  .profile-container {
+    margin: 10rem 5rem 5rem 5rem;
+  }
+
+  .profile-container h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .profile-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .profile-container button {
+    height: 50px;
+    width: 250px;
+    margin-top: 10rem;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -69,6 +95,31 @@
   .total-price {
     font-weight: 600 !important;
   }
+  .profile-container {
+    margin: 12rem 5rem 5rem 5rem;
+  }
+
+  .profile-container h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .profile-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .profile-container button {
+    height: 50px;
+    width: 250px;
+    margin-top: 12rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -88,6 +139,31 @@
   }
   .sub-details {
     font-size: 16px;
+  }
+  .profile-container {
+    margin: 12rem 5rem 5rem 5rem;
+  }
+
+  .profile-container h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .profile-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .profile-container button {
+    height: 50px;
+    width: 250px;
+    margin-top: 12rem;
   }
 }
 
