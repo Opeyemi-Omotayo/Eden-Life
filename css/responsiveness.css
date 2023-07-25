@@ -64,6 +64,10 @@
     font-weight: 600 !important;
   }
 
+  .laundry-freq {
+    width: 100%;
+  }
+
    .profile-container {
     margin: 10rem 5rem 5rem 5rem;
   }
