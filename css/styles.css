@@ -326,6 +326,9 @@ html{
 .grey{
   color: #4B6358;
 }
+.total-price{
+  line-height: 22px;
+}
 
 .bold {
   font-size: 20px;

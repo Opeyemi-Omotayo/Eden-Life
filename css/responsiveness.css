@@ -26,7 +26,7 @@
   .plan-left,
   .date-right,
   .date-left {
-    font-size: 16px;
+    font-size: 15px;
   }
   .date-left,
   .plan-left {
@@ -39,6 +39,7 @@
     height: 130px;
     width: 100%;
   }
+
   .card .card_price {
   padding-left: 43px;
 }
@@ -47,8 +48,19 @@
     font-size: 16px;
     font-weight: 700;
   }
+
+  .discount p {
+    font-size: 12px;
+  }
+
+  .discount-input {
+    font-size: 14px;
+  }
+  .grey{
+    font-size: 12px !important;
+  }
   .total-price {
-    font-size: 14px !important;
+    font-size: 13px !important;
     font-weight: 600 !important;
   }
 
