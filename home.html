@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/home.css" />
-    <link rel="stylesheet" href="./CSS/modal.css">
-    <link rel="stylesheet" href="./CSS/responsiveness.css">
+    <link rel="stylesheet" href="./CSS/modal.css" />
+    <link rel="stylesheet" href="./CSS/responsiveness.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,10 +19,7 @@
   <body class="home-container">
     <header class="mobile-header">
       <div class="left-content">
-        <button
-          class="menu-toggle"
-          aria-label="Toggle Menu"
-        >
+        <button class="menu-toggle" aria-label="Toggle Menu">
           <span></span>
           <span></span>
           <span></span>
@@ -55,68 +52,110 @@
     </div>
 
     <div class="card-list">
-        <section class="cards coloured_1">
-          <div class="card-details">
-            <div class="card-descr">
-                <span class="descr-span" style="color: #03a84e;">Food Delivery</span>
-              <img src="./Assets/food.svg" alt="food" />
-            </div>
-            <div class="card-descr descr-p1 sizing-card-descr" id="getFoodDetails" style="background: #E9FBF2; padding: 6px; border-radius: 8px;">
-              <div > View Status </div>
-              <span><img src="./Assets/ArrowExpand.svg" alt="" /></span>
-            </div>
+      <section class="cards coloured_1">
+        <div class="card-details">
+          <div class="card-descr">
+            <span class="descr-span" style="color: #03a84e">Food Delivery</span>
+            <img src="./Assets/food.svg" alt="food" />
           </div>
-          <div class="food-item time">
-            <img src="./Assets/BBQ(Plate).png" alt="order" class="food-image">
-            <div class="food-info">
-              <h2>French Fries with</h2>
-              <p>BBQ Turkey Wings & Coleslaw</p>
-            </div>
+          <div
+            class="card-descr descr-p1 sizing-card-descr"
+            id="getFoodDetails"
+            style="background: #e9fbf2; padding: 6px; border-radius: 8px"
+          >
+            <div>View Status</div>
+            <svg
+              class="svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.22217 11.5555L9.77772 7.99999L6.22217 4.44443"
+                stroke="#03A84E"
+                stroke-width="1.33333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
-          
-          <div class="line2"></div>
-          <div class="time">
-            <img src="./Assets/clock.svg" alt="time">
-            <p class="time-time">10:00 AM - 11:30 AM</p>
+        </div>
+        <div class="food-item time">
+          <img src="./Assets/BBQ(Plate).png" alt="order" class="food-image" />
+          <div class="food-info">
+            <h2>French Fries with</h2>
+            <p>BBQ Turkey Wings & Coleslaw</p>
           </div>
-        </section>
-        <section class="cards coloured_2">
-          <div class="card-details">
-            <div class="card-descr">
-                <span class="descr-span" style="color: #FF9D00;">Home Cleaning</span>
-              <img src="./Assets/cleaning.svg" alt="food" />
-            </div>
-            <div class="card-descr descr-p2 sizing-card-descr" id="getCleaningDetails" style="background: #FFF3DF; padding: 6px; border-radius: 8px;">
-              <span >View Status </span>
-              <span><img src="./Assets/CleaningExpand.svg" alt="" /></span>
-            </div>
+        </div>
+
+        <div class="line2"></div>
+        <div class="time">
+          <img src="./Assets/clock.svg" alt="time" />
+          <p class="time-time">10:00 AM - 11:30 AM</p>
+        </div>
+      </section>
+      <section class="cards coloured_2">
+        <div class="card-details">
+          <div class="card-descr">
+            <span class="descr-span" style="color: #ff9d00">Home Cleaning</span>
+            <img src="./Assets/cleaning.svg" alt="food" />
           </div>
-          <p class="time cleaning-details-time">Get ready; our cleaner is coming to get your house pampered.</p>
-          <div class="line"></div>
-          <div class="time">
-            <img src="./Assets/clock.svg" alt="time">
-            <p class="time-time">10:00 AM - 11:30 AM</p>
+          <div
+            class="card-descr descr-p2 sizing-card-descr"
+            id="getCleaningDetails"
+            style="background: #fff3df; padding: 6px; border-radius: 8px"
+          >
+            <span>View Status </span>
+            <svg
+              class="svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.22217 11.5555L9.77772 7.99999L6.22217 4.44443"
+                stroke="#FF9D00"
+                stroke-width="1.33333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
-        </section>
+        </div>
+        <p class="time cleaning-details-time">
+          Get ready; our cleaner is coming to get your house pampered.
+        </p>
+        <div class="line"></div>
+        <div class="time">
+          <img src="./Assets/clock.svg" alt="time" />
+          <p class="time-time">10:00 AM - 11:30 AM</p>
+        </div>
+      </section>
     </div>
 
     <div id="orderModal" class="modal">
       <div class="modal-content">
         <p class="modal-date">Mon, 08 Sep 2021</p>
-        <span class="close-btn" id='closeOrderBtn' onclick="closeModal()">&times;</span>
-        <div class="food-item ">
-          <img src="./Assets/food.svg" alt="order" class="order-img">
+        <span class="close-btn" id="closeOrderBtn" onclick="closeModal()"
+          >&times;</span
+        >
+        <div class="food-item">
+          <img src="./Assets/food.svg" alt="order" class="order-img" />
           <div class="food-info order-info">
             <h2>Order Status</h2>
             <h3>Order has arrived</h3>
           </div>
         </div>
         <div class="address-details food-info">
-          <h2 style="margin-bottom: 0.4rem;">Delivery Address</h2>
+          <h2 style="margin-bottom: 0.4rem">Delivery Address</h2>
           <p>No 6B, Radiators Spring, Lightning Estate, Lagos, Nigeria.</p>
         </div>
-        
-        <div >
+
+        <div>
           <ul class="orderProgress">
             <li class="orderProgress-item current">
               <section class="order-item">
@@ -124,7 +163,7 @@
                   <h3>Order has arrived</h3>
                   <p>10:56 AM</p>
                 </div>
-               <p>Your order has arrived at your location. Pick it up!</p> 
+                <p>Your order has arrived at your location. Pick it up!</p>
               </section>
             </li>
             <li class="orderProgress-item is-done">
@@ -133,9 +172,9 @@
                   <h3>Order on the way</h3>
                   <p>9:14 AM</p>
                 </div>
-               <p>Your order has been dispatched and is on the way to you.</p>
+                <p>Your order has been dispatched and is on the way to you.</p>
               </section>
-              </li>
+            </li>
           </ul>
         </div>
       </div>
@@ -144,24 +183,24 @@
     <div id="cleaningModal" class="modal">
       <div class="modal-content">
         <p class="modal-date">Mon, 08 Sep 2021</p>
-        <span class="close-btn" id='closeCleaningBtn'>&times;</span>
-        <div class="food-item ">
-          <img src="./Assets/cleaning.svg" alt="order" class="order-img">
+        <span class="close-btn" id="closeCleaningBtn">&times;</span>
+        <div class="food-item">
+          <img src="./Assets/cleaning.svg" alt="order" class="order-img" />
           <div class="food-info order-info">
             <h2>Order Status</h2>
             <h3>Cleaning completed</h3>
           </div>
         </div>
-        <div class="address-details food-info" style="margin-bottom: 0;">
-          <h2 style="margin-bottom: 0.4rem;">Cleaning Address</h2>
+        <div class="address-details food-info" style="margin-bottom: 0">
+          <h2 style="margin-bottom: 0.4rem">Cleaning Address</h2>
           <p>No 6B, Radiators Spring, Lightning Estate, Lagos, Nigeria.</p>
         </div>
-        <div class="address-details food-info" style="margin-top: 0;">
-          <h2 style="margin-bottom: 0.4rem;">Cleaner</h2>
+        <div class="address-details food-info" style="margin-top: 0">
+          <h2 style="margin-bottom: 0.4rem">Cleaner</h2>
           <p>Kelechi Oguike</p>
         </div>
-        
-        <div >
+
+        <div>
           <ul class="orderProgress">
             <li class="orderProgress-item done">
               <section class="order-item sizing-order-item">
@@ -169,7 +208,7 @@
                   <h3>Cleaning completed</h3>
                   <p>4:01 PM</p>
                 </div>
-               <p>Give feedback.</p> 
+                <p>Give feedback.</p>
               </section>
             </li>
             <li class="orderProgress-item done">
@@ -178,27 +217,27 @@
                   <h3>Cleaning started</h3>
                   <p>2:35 PM</p>
                 </div>
-               <p>Your cleaner has started cleaning.</p>
+                <p>Your cleaner has started cleaning.</p>
               </section>
-              </li>
-              <li class="orderProgress-item done">
-                <section class="order-item sizing-order-item">
-                  <div class="order-details">
-                    <h3>Cleaner has arrived</h3>
-                    <p>2:26 PM</p>
-                  </div>
-                 <p>Your cleaner has arrived at your location.</p>
-                </section>
-                </li>
-                <li class="orderProgress-item done">
-                  <section class="order-item sizing-order-item">
-                    <div class="order-details">
-                      <h3>Cleaner en route</h3>
-                      <p>12:22 PM</p>
-                    </div>
-                   <p>Your cleaner is on the way to your location!</p>
-                  </section>
-                  </li>
+            </li>
+            <li class="orderProgress-item done">
+              <section class="order-item sizing-order-item">
+                <div class="order-details">
+                  <h3>Cleaner has arrived</h3>
+                  <p>2:26 PM</p>
+                </div>
+                <p>Your cleaner has arrived at your location.</p>
+              </section>
+            </li>
+            <li class="orderProgress-item done">
+              <section class="order-item sizing-order-item">
+                <div class="order-details">
+                  <h3>Cleaner en route</h3>
+                  <p>12:22 PM</p>
+                </div>
+                <p>Your cleaner is on the way to your location!</p>
+              </section>
+            </li>
           </ul>
         </div>
       </div>
@@ -208,48 +247,47 @@
 
     <div class="footer-container">
       <div class="footer-icon_container">
-          <ul>
-              <li>
-                  <a href="home.html">
-                      <div class="footer-icon">
-                          <img src="./Assets/Home.svg" alt="Home">
-                      </div>
-                      <h6 style="color: #03A84E;">Home</h6>
-                  </a>
-              </li>
-          </ul>
-          <ul>
-              <li>
-                  <a href="#">
-                      <div class="footer-icon">
-                          <img src="./Assets/History.svg" alt="History">
-                      </div>
-                      <h6>History</h6>
-                  </a>
-              </li>
-          </ul>
-          <ul>
-              <li>
-                  <a href="#">
-                      <div class="footer-icon">
-                          <img src="./Assets/Notification.svg" alt="Notification Bell">
-                      </div>
-                      <h6>Notifications</h6>
-                  </a>
-              </li>
-          </ul>
-          <ul>
-              <li>
-                  <a href="#">
-                      <div class="footer-icon">
-                          <img src="./Assets/Chat.svg" alt="Chat">
-                      </div>
-                      <h6>Gardener</h6>
-                  </a>
-              </li>
-          </ul>
+        <ul>
+          <li>
+            <a href="home.html">
+              <div class="footer-icon">
+                <img src="./Assets/Home.svg" alt="Home" />
+              </div>
+              <h6 style="color: #03a84e">Home</h6>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="footer-icon">
+                <img src="./Assets/History.svg" alt="History" />
+              </div>
+              <h6>History</h6>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="footer-icon">
+                <img src="./Assets/Notification.svg" alt="Notification Bell" />
+              </div>
+              <h6>Notifications</h6>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="footer-icon">
+                <img src="./Assets/Chat.svg" alt="Chat" />
+              </div>
+              <h6>Gardener</h6>
+            </a>
+          </li>
+        </ul>
       </div>
-  </div>
-
+    </div>
   </body>
 </html>

@@ -155,14 +155,14 @@ html {
 
 .line {
   height: 1px;
-  width: 87%;
+  width: 80%;
   margin: 35px;
   background: #ffda9f;
 }
 
 .line2 {
   height: 1px;
-  width: 87%;
+  width: 80%;
   margin: 35px;
   background: #03a84e;
 }
@@ -242,7 +242,7 @@ html {
   display: flex;
   align-items: start;
   justify-content: start;
-  padding-left: 35px;
+  padding-left: 45px;
 }
 
 .time-time {
@@ -322,4 +322,12 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.svg{
+  display: inline-block;
+    vertical-align: middle;
+    font-size: 16px; 
+    line-height: normal;
+    box-sizing: content-box;
 }

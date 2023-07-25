@@ -141,14 +141,6 @@ html{
   justify-content: space-between;
 }
 
-.underline {
-  position: absolute;
-  height: 2px;
-  width: 83%;
-  background: #cbd8d2;
-  margin-top: 3rem;
-}
-
 .undeerline {
   height: 2px;
   background: #cbd8d2;
@@ -372,4 +364,12 @@ html{
   cursor: pointer;
   text-decoration: none;
   text-align: center;
+}
+
+.svg{
+  display: inline-block;
+    vertical-align: middle;
+    font-size: 16px; 
+    line-height: normal;
+    box-sizing: content-box;
 }
