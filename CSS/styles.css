@@ -283,6 +283,13 @@ html{
   flex: 1;
 }
 
+.discount-input:focus{
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
 .discount-button {
   display: inline-flex;
   height: 40px;

@@ -1,5 +1,3 @@
-//modal
-
 document.addEventListener("DOMContentLoaded", () => {
     const orderModal = document.getElementById("orderModal");
     const cleaningModal = document.getElementById("cleaningModal");
